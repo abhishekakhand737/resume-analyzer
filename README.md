@@ -12,6 +12,7 @@ AI-powered resume analyzer built with Streamlit + Claude API.
 - 🤖 ATS Optimization Tips
 
 ## Setup & Run
+Runnable link:- https://resume-analyzer-fasw4ucxoypusph3gjiurw.streamlit.app/
 
 ### 1. Install Dependencies
 ```bash
