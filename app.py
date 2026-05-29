@@ -286,7 +286,7 @@ Return ONLY a valid JSON object (no markdown, no backticks, no extra text) with 
 Now analyze the actual resume above and return real JSON based on it."""
 
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="llama-3.3-70b-versatile",
         max_tokens=1500,
         messages=[{"role": "user", "content": prompt}]
     )
